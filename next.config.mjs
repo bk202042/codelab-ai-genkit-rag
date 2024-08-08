@@ -1,3 +1,4 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -6,6 +7,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'storage.googleapis.com' },
     ],
   },
+  swcMinify: true, // Enable SWC minification
 };
 
 export default nextConfig;
